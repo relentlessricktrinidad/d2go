@@ -1,8 +1,8 @@
 package memory
 
 import (
-	"github.com/hectorgimenez/d2go/pkg/data"
-	"github.com/hectorgimenez/d2go/pkg/data/area"
+	"github.com/relentlessricktrinidad/d2go/pkg/data"
+	"github.com/relentlessricktrinidad/d2go/pkg/data/area"
 )
 
 func (gd *GameReader) getRoster(rawPlayerUnits RawPlayerUnits) (roster []data.RosterMember) {

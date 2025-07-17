@@ -3,13 +3,13 @@ package memory
 import (
 	"sort"
 
-	"github.com/hectorgimenez/d2go/pkg/data/entrance"
-	"github.com/hectorgimenez/d2go/pkg/data/mode"
+	"github.com/relentlessricktrinidad/d2go/pkg/data/entrance"
+	"github.com/relentlessricktrinidad/d2go/pkg/data/mode"
 
-	"github.com/hectorgimenez/d2go/pkg/data"
-	"github.com/hectorgimenez/d2go/pkg/data/area"
-	"github.com/hectorgimenez/d2go/pkg/data/object"
-	"github.com/hectorgimenez/d2go/pkg/utils"
+	"github.com/relentlessricktrinidad/d2go/pkg/data"
+	"github.com/relentlessricktrinidad/d2go/pkg/data/area"
+	"github.com/relentlessricktrinidad/d2go/pkg/data/object"
+	"github.com/relentlessricktrinidad/d2go/pkg/utils"
 )
 
 func isPortal(txtFileNo int) bool {

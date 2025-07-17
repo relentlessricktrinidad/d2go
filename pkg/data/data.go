@@ -4,14 +4,14 @@ import (
 	"math"
 	"strings"
 
-	"github.com/hectorgimenez/d2go/pkg/data/mode"
+	"github.com/relentlessricktrinidad/d2go/pkg/data/mode"
 
-	"github.com/hectorgimenez/d2go/pkg/data/quest"
+	"github.com/relentlessricktrinidad/d2go/pkg/data/quest"
 
-	"github.com/hectorgimenez/d2go/pkg/data/area"
-	"github.com/hectorgimenez/d2go/pkg/data/skill"
-	"github.com/hectorgimenez/d2go/pkg/data/stat"
-	"github.com/hectorgimenez/d2go/pkg/data/state"
+	"github.com/relentlessricktrinidad/d2go/pkg/data/area"
+	"github.com/relentlessricktrinidad/d2go/pkg/data/skill"
+	"github.com/relentlessricktrinidad/d2go/pkg/data/stat"
+	"github.com/relentlessricktrinidad/d2go/pkg/data/state"
 )
 
 const (
