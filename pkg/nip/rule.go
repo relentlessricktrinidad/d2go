@@ -61,7 +61,7 @@ func (r Rules) EvaluateAll(it data.Item) (Rule, RuleResult) {
 	return bestMatchingRule, bestMatch
 }
 
-var fixedPropsList = map[string]int{"type": 0, "quality": 0, "class": 0, "name": 0, "flag": 0, "color": 0, "prefix": 0, "suffix": 0}
+var fixedPropsList = map[string]int{"type": 0, "quality": 0, "class": 0, "name": 0, "flag": 0, "color": 0, "prefix": 0, "suffix": 0, "level": 0}
 
 func NewRule(rawRule string, filename string, lineNumber int) (Rule, error) {
 	rule := sanitizeLine(rawRule)
@@ -166,6 +166,8 @@ func (r Rule) Evaluate(it data.Item) (RuleResult, error) {
 		switch prop {
 		case "type":
 			stage1Props["type"] = it.Type().ID
+		case "level":
+			stage1Props["level"] = it.LevelReq
 		case "quality":
 			stage1Props["quality"] = int(it.Quality)
 		case "class":
